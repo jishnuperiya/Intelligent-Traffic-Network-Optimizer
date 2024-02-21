@@ -1,0 +1,16 @@
+# Ignore all files by default
+*
+
+# Whitelist the specific files and extensions you want to track
+!.gitignore
+!conanfile.py
+!CMakeLists.txt
+!ReadMe.md
+!*.cpp
+
+# Ignore specific files/directories that are not needed
+build/
+conan.lock
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
